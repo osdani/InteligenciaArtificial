@@ -17,13 +17,13 @@ This repository includes some files to connect and acquire data from Microsoft K
 
 
 ## Save data
+### Python
 * Run: >> python capture_k1.py
-* Data is saved in folder: ~/data/raw 
+* Data is saved in folder: ~/data/raw
 
-## in MATLAB
+### C++
+* Install: my_pack (using catkin)
+* After install run: rosrun my_pack k2_capture /{your_path}/{your_fileName}.txt
 
-c=[R,G,B]/255;
-scatter3(X,Y,Z,1,c)
-xlabel('X')
-ylabel('Y')
-zlabel('Z')
+## view data in MATLAB
+*  run files of "data_view" folder
