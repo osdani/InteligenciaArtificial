@@ -149,6 +149,8 @@ add_executable(k2_capture src/capture.cpp)
 ## Specify libraries to link a library or executable target against
  target_link_libraries(k2_capture
    ${catkin_LIBRARIES}
+   ${roslib_LIBRARIES}
+   ${PCL_LIBRARIES}
  )
 
 #############

@@ -22,6 +22,9 @@ This repository includes some files to connect and acquire data from Microsoft K
 * Data is saved in folder: ~/data/raw
 
 ### C++
+* sudo apt-get update
+* sudo apt-get install ros-kinetic-pcl-conversions
+* sudo apt-get install ros-kinetic-pcl-ros
 * Install: my_pack (using catkin)
 * After install run: rosrun my_pack k2_capture /{your_path}/{your_fileName}.txt
 
